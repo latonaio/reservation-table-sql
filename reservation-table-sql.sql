@@ -34,4 +34,4 @@ CREATE TABLE `reservations`
     CONSTRAINT `reservation_reservation_id_old_fk` FOREIGN KEY (`reservation_id_old`) REFERENCES `reservations` (`reservation_id`)
 ) ENGINE = InnoDB
   AUTO_INCREMENT = 1
-  DEFAULT CHARSET = utf8;
+  DEFAULT CHARSET = utf8mb4;
